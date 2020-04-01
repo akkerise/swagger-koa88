@@ -39,7 +39,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akkerise/swagger-koa88.git"
+    "url": "git+https://akkerise:quintus49K@github.com/akkerise/swagger-koa88.git"
   },
   "bugs": {
     "url": "https://github.com/akkerise/swagger-koa88/issues"
