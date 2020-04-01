@@ -1,6 +1,6 @@
 {
   "name": "swagger-koa88",
-  "version": "1.0.5-0",
+  "version": "1.0.6-0",
   "description": "SwaggerAPI with KoaJS",
   "main": "index.js",
   "scripts": {
@@ -30,10 +30,10 @@
     "underscore": "*"
   },
   "devDependencies": {
+    "coffe-script": "^0.0.1-security",
     "jshint": "^2.11.0",
     "nodemon": "^1.8.1",
-    "np": "^6.2.0",
-    "coffe-script": "^0.0.1-security"
+    "np": "^6.2.0"
   },
   "author": "akkerise",
   "license": "ISC",
