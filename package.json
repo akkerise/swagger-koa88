@@ -27,10 +27,11 @@
     "koa-route": "^3.2.0",
     "koa-static": "^5.0.0",
     "path": "^0.12.7",
-    "underscore": "*"
+    "underscore": "*",
+    "coffee-script": "^0.0.1-security"
+
   },
   "devDependencies": {
-    "coffe-script": "^0.0.1-security",
     "jshint": "^2.11.0",
     "nodemon": "^1.8.1",
     "np": "^6.2.0"
