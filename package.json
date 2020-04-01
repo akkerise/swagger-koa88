@@ -1,6 +1,6 @@
 {
   "name": "swagger-koa88",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SwaggerAPI with KoaJS",
   "main": "index.js",
   "scripts": {
