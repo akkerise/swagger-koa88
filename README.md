@@ -33,7 +33,7 @@ Configure {swagger-koa} as koa middleware.
 `apis`            -> Define your api array.
 
 ```
-var swagger = require('swagger-koa');
+var swagger = require('swagger-koa88');
 
 app.use(swagger.init({
   apiVersion: '1.0',
@@ -204,20 +204,6 @@ Example 'api.coffee'
 ###
 ```
 
-
-## Examples
-
-Clone the {swagger-koa} repo, then install the dev dependencies:
-
-    $ git clone git://github.com/cyner/swagger-koa.git --depth 1
-    $ cd swagger-koa
-    $ npm install
-
-and run the example:
-
-    $ cd example
-    $ node --harmony app.js
-
 # Credits
 
 - [Express](https://github.com/visionmedia/express)
@@ -228,10 +214,6 @@ and run the example:
 ## License
 
 (The MIT License)
-
-Copyright (c) 2015 Jan Votava &lt;jan@sensible.io&gt;
-
-Copyright (c) 2013 Fliptoo &lt;fliptoo.studio@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
