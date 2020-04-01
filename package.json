@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "async": "^3.2.0",
-    "coffe-script": "^0.0.1-security",
     "doctrine": "^3.0.0",
     "fs": "^0.0.1-security",
     "js-yaml": "^3.13.1",
@@ -33,7 +32,8 @@
   "devDependencies": {
     "jshint": "^2.11.0",
     "nodemon": "^1.8.1",
-    "np": "^6.2.0"
+    "np": "^6.2.0",
+    "coffe-script": "^0.0.1-security"
   },
   "author": "akkerise",
   "license": "ISC",
