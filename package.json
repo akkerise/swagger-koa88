@@ -1,6 +1,6 @@
 {
   "name": "swagger-koa88",
-  "version": "1.0.6",
+  "version": "1.0.5-0",
   "description": "SwaggerAPI with KoaJS",
   "main": "index.js",
   "scripts": {
@@ -18,18 +18,15 @@
     "js"
   ],
   "dependencies": {
-    "async": "^3.2.0",
-    "doctrine": "^3.0.0",
-    "fs": "^0.0.1-security",
-    "js-yaml": "^3.13.1",
-    "koa": "^2.11.0",
-    "koa-mount": "^4.0.0",
+    "async": "^2.6.0",
+    "coffee-script": "*",
+    "doctrine": "*",
+    "js-yaml": "^3.10.0",
+    "koa": "^2.5.0",
+     "koa-mount": "^3.0.0",
     "koa-route": "^3.2.0",
-    "koa-static": "^5.0.0",
-    "path": "^0.12.7",
-    "underscore": "*",
-    "coffee-script": "^0.0.1-security"
-
+    "koa-static": "^4.0.2",
+    "underscore": "*"
   },
   "devDependencies": {
     "jshint": "^2.11.0",
