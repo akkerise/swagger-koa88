@@ -1,0 +1,25 @@
+{
+  "name": "swagger-koa88",
+  "version": "1.0.0",
+  "description": "SwaggerAPI with KoaJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "swagger",
+    "api",
+    "koa",
+    "js"
+  ],
+  "author": "akkerise",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akkerise/swagger-koa88.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akkerise/swagger-koa88/issues"
+  },
+  "homepage": "https://github.com/akkerise/swagger-koa88#readme"
+}
