@@ -1,6 +1,6 @@
 {
   "name": "swagger-koa88",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "SwaggerAPI with KoaJS",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "doctrine": "*",
     "js-yaml": "^3.10.0",
     "koa": "^2.5.0",
-     "koa-mount": "^3.0.0",
+    "koa-mount": "^3.0.0",
     "koa-route": "^3.2.0",
     "koa-static": "^4.0.2",
     "underscore": "*"
