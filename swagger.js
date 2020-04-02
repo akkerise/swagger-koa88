@@ -229,9 +229,9 @@ function generate(opt) {
     throw new Error('\'option\' is required.');
   }
 
-  if (!opt.swaggerUI) {
-    throw new Error('\'swaggerUI\' is required.');
-  }
+  // if (!opt.swaggerUI) {
+  //   throw new Error('\'swaggerUI\' is required.');
+  // }
 
   if (!opt.basePath) {
     throw new Error('\'basePath\' is required.');
