@@ -346,7 +346,8 @@ exports.init = function(opt) {
   });
 
   app.use(route.get(opt.fullSwaggerJSONPath + '/:resourceName*', swaggerJSON));
-  app.use(mount(opt.swaggerURL, serve(opt.swaggerUI)));
+  // app.use(mount(opt.swaggerURL, serve(opt.swaggerUI)));
+  app.use(mount(opt.swaggerURL, serve('./swagger')));
 
   return mount(app, '/');
 };
