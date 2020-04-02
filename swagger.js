@@ -346,7 +346,16 @@ exports.init = function(opt) {
   });
 
   app.use(route.get(opt.fullSwaggerJSONPath + '/:resourceName*', swaggerJSON));
-  app.use(mount(opt.swaggerURL, serve(opt.swaggerUI ? opt.swaggerUI : './swagger')));
+  
+  const swaggerDir = opt.swaggerUI ? opt.swaggerUI : path.join(__dirname, '/swagger')
+  
+  fs.access(swaggerDir, function(error){
+    if (error) {
+      console.log("Directory swagger directory does not exist.")
+    } else {
+      app.use(mount(opt.swaggerURL, serve(swaggerDir)));
+    }
+  })
 
   return mount(app, '/');
 };
